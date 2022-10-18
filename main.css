@@ -13,7 +13,7 @@
     border-radius: 25px;
 }
 
-.dice > div:not(.dot) {
+.dice > div {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

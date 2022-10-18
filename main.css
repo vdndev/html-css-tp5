@@ -13,35 +13,20 @@
     border-radius: 25px;
 }
 
-.dice > div {
+.dice > div:not(.dot) {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.dot{
+.dot{    
     width: 10px;
     height: 10px;
+
+    align-self: center;
     
     background-color: red;
     
     border: 1px red solid;
     border-radius: 10px;
-}
-
-
-#d1 > .dot {
-    align-self: center;
-}
-
-#d2 > .dot {
-    align-self: center;
-}
-
-#d3 > .dot {
-    align-self: center;
-}
-
-#d5 > .dot:nth-child(2) {
-    align-self: center;
 }
